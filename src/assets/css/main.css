@@ -1,0 +1,43 @@
+
+@import "./reset.css";
+
+@import "./atomic.css";
+
+@import "./semantic.css";
+
+
+
+#app {
+  margin: auto;
+  width: 100%;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  margin: 4rem auto;
+  padding: 2rem;
+  border: 1px solid;
+  border-radius: 0.3rem;
+  text-align: center;
+  min-width: 400px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+  margin: 6rem auto;
+}
+
